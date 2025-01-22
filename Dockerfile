@@ -4,13 +4,13 @@ FROM node:20
 USER node
 
 
-RUN git clone https://github.com/DEMON-TECHX/DEMON-DEV.git home/node/blue
+RUN git clone https://github.com/EMMYHENZ-TECH.git home/node/blue
 
 
-WORKDIR /home/node/blue
+WORKDIR /home/node/henz
 
 
-RUN chmod -R 777 /home/node/blue/
+RUN chmod -R 777 /home/node/henz/
 
 
 RUN yarn install && yarn add http
