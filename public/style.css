@@ -106,36 +106,7 @@ button.bg-red-600:active {
 }
 
 button.bg-yellow-600:active {
-    box-shadow: 0 0 10px rgba(202, 138, 4, 0.5), 0 0 20px rgba(202, 138, 4, 0.3);
-}
-
-button.bg-purple-600:active {
-    box-shadow: 0 0 10px rgba(147, 51, 234, 0.5), 0 0 20px rgba(147, 51, 234, 0.3);
-}
-
-.log-entry {
-    padding: 4px 0;
-    border-bottom: 1px solid #4a5568;
-}
-
-.log-entry:last-child {
-    border-bottom: none;
-}
-
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-
-.fade-in {
-    animation: fadeIn 0.5s ease-in-out;
-}
-
-#login-interface {
-    font-family: 'Courier New', monospace;
-    white-space: pre-wrap;
-    word-break: break-word;
-}
+    box-shadow: 0 0 10px rgba(202, 138, 4, 0.5), 0 0 20px rgba(202, 138, 4, 
 
 #admin-section {
     scrollbar-width: thin;
@@ -148,9 +119,7 @@ button.bg-purple-600:active {
 
 #admin-section::-webkit-scrollbar-track {
     background: #2d3748;
-}
-
-#admin-section::-webkit-scrollbar-thumb {
+ion::-webkit-scrollbar-thumb {
     background-color: #718096;
     border-radius: 4px;
 }
@@ -165,23 +134,18 @@ button.bg-purple-600:active {
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-}
-
-#file-list li:hover {
+ver {
     background-color: rgba(66, 153, 225, 0.2);
 }
 
 #file-list .folder {
     font-weight: bold;
 }
-#file-list .folder::before {
-  content: '📁 ';
+#file-list .folde';
 }
 
-#file-list .file {
-    padding-left: 20px;
-}
-#file-list .file::before {
+#fi{
+    padding-lele::before {
   content: '📄 ';
 }
 
@@ -195,12 +159,9 @@ button.bg-purple-600:active {
 
 .light-mode #dark-mode-toggle svg {
     fill: #2d3748;
-}
-
 #quote-section {
     background-color: rgba(45, 55, 72, 0.8);
-    backdrop-filter: blur(5px);
-    transition: all 0.3s ease;
+    backdrop-filter: n: all 0.3s ease;
 }
 
 #quote-section:hover {
@@ -219,8 +180,7 @@ button.bg-purple-600:active {
     transition: all 0.3s ease;
 }
 
-#quote-section:hover #quote-author {
-    color: #a0aec0;
+#quote-section:hover #quote-author {a0aec0;
 }
 
 .login-container {
@@ -228,8 +188,7 @@ button.bg-purple-600:active {
     backdrop-filter: blur(10px);
     border-radius: 8px;
     padding: 2rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
-    max-width: 400px;
+    box-shadow: 0 4px 6p 400px;
     width: 100%;
     margin: 2rem auto;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -246,8 +205,7 @@ button.bg-purple-600:active {
     margin: 0 auto 1rem;
     background-color: rgba(74, 85, 104, 0.8);
     border-radius: 50%;
-    display: flex;
-    align-items: center;
+    display: flenter;
     justify-content: center;
     font-size: 3rem;
     color: white;
@@ -336,48 +294,3 @@ button.bg-purple-600:active {
   background-color: rgba(45, 55, 72, 0.8);
   backdrop-filter: blur(5px);
 }
-
-#file-list li {
-  cursor: pointer;
-  padding: 0.5rem;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
-}
-
-#file-list li:hover {
-  background-color: rgba(66, 153, 225, 0.2);
-}
-
-#file-content {
-  font-family: 'Courier New', monospace;
-  resize: vertical;
-}
-
-#save-file {
-  transition: all 0.3s ease;
-}
-
-#save-file:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
-}
-
-#save-file:active {
-  transform: translateY(1px);
-}
-
-#back-btn {
-  font-size: 0.875rem;
-  padding: 0.25rem 0.5rem;
-  transition: all 0.3s ease;
-}
-
-#back-btn:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-#back-btn:active {
-  transform: translateY(0);
-}
-
